@@ -1,7 +1,7 @@
 import 'dart:io';
 
 class AndroidRenameSteps {
-  static const String LIB_PATH_ACTIVITY = 'lib/testing_file';
+  static const String LIB_PATH_ACTIVITY = 'lib';
   static const String LIB_PATH_ACTIVITY1 = "";
 
   AndroidRenameSteps();
