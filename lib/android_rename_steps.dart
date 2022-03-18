@@ -35,7 +35,7 @@ class AndroidRenameSteps {
       }
 
       for (int i = startEnd.length - 1; i >= 0; i--) {
-        String variableName = "A" + list.length.toString();
+        String variableName = "A" + keyValueLIst.length.toString();
         print(string);
 
         var oldValue = string.substring(
@@ -67,7 +67,6 @@ class AndroidRenameSteps {
       newFileData += " const String ${element["data"]}=${element["value"]};\n";
     });
     await newFile.writeAsString(newFileData);
-    print(list);
     return;
   }
 }
